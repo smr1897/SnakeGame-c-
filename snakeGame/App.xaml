@@ -1,0 +1,14 @@
+﻿<Application x:Class="snakeGame.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:snakeGame"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <SolidColorBrush x:Key="BackgroundColor">#211E28</SolidColorBrush>
+        <SolidColorBrush x:Key="GridBackgroundColor">#312C40</SolidColorBrush>
+        <SolidColorBrush x:Key="GridLineColor">#4f4867</SolidColorBrush>
+        <SolidColorBrush x:Key="TextColor">#ffffff</SolidColorBrush>
+        <SolidColorBrush x:Key="OverlayColor">#7f000000</SolidColorBrush>
+        <FontFamily x:Key="MainFont">Assets/#Droid Sans Mono</FontFamily>
+    </Application.Resources>
+</Application>
